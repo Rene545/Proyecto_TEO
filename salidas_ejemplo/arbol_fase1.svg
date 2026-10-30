@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4472 1053" width="4472" height="1053">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<g stroke="#64748b" stroke-width="2" fill="none">
+<path d="M2283.0 88.0 L2283.0 154.0"/>
+<path d="M2283.0 200.0 L2283.0 266.0"/>
+<path d="M2283.0 312.0 L216.0 378.0"/>
+<path d="M2283.0 312.0 L640.0 378.0"/>
+<path d="M2283.0 312.0 L1117.0 378.0"/>
+<path d="M2283.0 312.0 L2256.5 378.0"/>
+<path d="M2283.0 312.0 L3634.5 378.0"/>
+<path d="M2283.0 312.0 L4350.0 378.0"/>
+<path d="M216.0 424.0 L110.0 490.0"/>
+<path d="M216.0 424.0 L322.0 490.0"/>
+<path d="M640.0 424.0 L534.0 490.0"/>
+<path d="M640.0 424.0 L746.0 490.0"/>
+<path d="M1117.0 424.0 L958.0 490.0"/>
+<path d="M1117.0 424.0 L1276.0 490.0"/>
+<path d="M1276.0 536.0 L1170.0 602.0"/>
+<path d="M1276.0 536.0 L1382.0 602.0"/>
+<path d="M2256.5 424.0 L1700.0 490.0"/>
+<path d="M2256.5 424.0 L2177.0 490.0"/>
+<path d="M2256.5 424.0 L2813.0 490.0"/>
+<path d="M1700.0 536.0 L1700.0 602.0"/>
+<path d="M1700.0 648.0 L1594.0 714.0"/>
+<path d="M1700.0 648.0 L1806.0 714.0"/>
+<path d="M2177.0 536.0 L2177.0 602.0"/>
+<path d="M2177.0 648.0 L2177.0 714.0"/>
+<path d="M2177.0 760.0 L2018.0 826.0"/>
+<path d="M2177.0 760.0 L2336.0 826.0"/>
+<path d="M2336.0 872.0 L2230.0 938.0"/>
+<path d="M2336.0 872.0 L2442.0 938.0"/>
+<path d="M2813.0 536.0 L2813.0 602.0"/>
+<path d="M2813.0 648.0 L2813.0 714.0"/>
+<path d="M2813.0 760.0 L2654.0 826.0"/>
+<path d="M2813.0 760.0 L2972.0 826.0"/>
+<path d="M2972.0 872.0 L2866.0 938.0"/>
+<path d="M2972.0 872.0 L3078.0 938.0"/>
+<path d="M3634.5 424.0 L3396.0 490.0"/>
+<path d="M3634.5 424.0 L3873.0 490.0"/>
+<path d="M3396.0 536.0 L3290.0 602.0"/>
+<path d="M3396.0 536.0 L3502.0 602.0"/>
+<path d="M3873.0 536.0 L3873.0 602.0"/>
+<path d="M3873.0 648.0 L3714.0 714.0"/>
+<path d="M3873.0 648.0 L4032.0 714.0"/>
+<path d="M4032.0 760.0 L3926.0 826.0"/>
+<path d="M4032.0 760.0 L4138.0 826.0"/>
+<path d="M4350.0 424.0 L4350.0 490.0"/>
+</g><g font-family="Segoe UI, Arial, sans-serif" font-size="13">
+<rect x="2185.0" y="42.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="2283.0" y="69.0" text-anchor="middle" fill="#0f172a" textLength="72" lengthAdjust="spacingAndGlyphs">Programa C</text>
+<rect x="2185.0" y="154.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="2283.0" y="181.0" text-anchor="middle" fill="#0f172a" textLength="130" lengthAdjust="spacingAndGlyphs">Función int main()</text>
+<rect x="2185.0" y="266.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="2283.0" y="293.0" text-anchor="middle" fill="#0f172a" textLength="43" lengthAdjust="spacingAndGlyphs">Bloque</text>
+<rect x="118.0" y="378.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="216.0" y="405.0" text-anchor="middle" fill="#0f172a" textLength="108" lengthAdjust="spacingAndGlyphs">Declaración int</text>
+<rect x="12.0" y="490.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="110.0" y="517.0" text-anchor="middle" fill="#0f172a" textLength="137" lengthAdjust="spacingAndGlyphs">Identificador: edad</text>
+<rect x="224.0" y="490.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="322.0" y="517.0" text-anchor="middle" fill="#0f172a" textLength="72" lengthAdjust="spacingAndGlyphs">Número: 18</text>
+<rect x="542.0" y="378.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="640.0" y="405.0" text-anchor="middle" fill="#0f172a" textLength="108" lengthAdjust="spacingAndGlyphs">Declaración int</text>
+<rect x="436.0" y="490.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="534.0" y="517.0" text-anchor="middle" fill="#0f172a" textLength="151" lengthAdjust="spacingAndGlyphs">Identificador: limite</text>
+<rect x="648.0" y="490.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="746.0" y="517.0" text-anchor="middle" fill="#0f172a" textLength="72" lengthAdjust="spacingAndGlyphs">Número: 20</text>
+<rect x="1019.0" y="378.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="1117.0" y="405.0" text-anchor="middle" fill="#0f172a" textLength="108" lengthAdjust="spacingAndGlyphs">Declaración int</text>
+<rect x="860.0" y="490.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="958.0" y="517.0" text-anchor="middle" fill="#0f172a" textLength="144" lengthAdjust="spacingAndGlyphs">Identificador: doble</text>
+<rect x="1178.0" y="490.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="1276.0" y="517.0" text-anchor="middle" fill="#0f172a" textLength="65" lengthAdjust="spacingAndGlyphs">Término *</text>
+<rect x="1072.0" y="602.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="1170.0" y="629.0" text-anchor="middle" fill="#0f172a" textLength="137" lengthAdjust="spacingAndGlyphs">Identificador: edad</text>
+<rect x="1284.0" y="602.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="1382.0" y="629.0" text-anchor="middle" fill="#0f172a" textLength="65" lengthAdjust="spacingAndGlyphs">Número: 2</text>
+<rect x="2158.5" y="378.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="2256.5" y="405.0" text-anchor="middle" fill="#0f172a" textLength="101" lengthAdjust="spacingAndGlyphs">Condicional if</text>
+<rect x="1602.0" y="490.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="1700.0" y="517.0" text-anchor="middle" fill="#0f172a" textLength="65" lengthAdjust="spacingAndGlyphs">Condición</text>
+<rect x="1602.0" y="602.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="1700.0" y="629.0" text-anchor="middle" fill="#0f172a" textLength="94" lengthAdjust="spacingAndGlyphs">Comparación &lt;</text>
+<rect x="1496.0" y="714.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="1594.0" y="741.0" text-anchor="middle" fill="#0f172a" textLength="137" lengthAdjust="spacingAndGlyphs">Identificador: edad</text>
+<rect x="1708.0" y="714.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="1806.0" y="741.0" text-anchor="middle" fill="#0f172a" textLength="151" lengthAdjust="spacingAndGlyphs">Identificador: limite</text>
+<rect x="2079.0" y="490.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="2177.0" y="517.0" text-anchor="middle" fill="#0f172a" textLength="58" lengthAdjust="spacingAndGlyphs">Entonces</text>
+<rect x="2079.0" y="602.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="2177.0" y="629.0" text-anchor="middle" fill="#0f172a" textLength="43" lengthAdjust="spacingAndGlyphs">Bloque</text>
+<rect x="2079.0" y="714.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="2177.0" y="741.0" text-anchor="middle" fill="#0f172a" textLength="72" lengthAdjust="spacingAndGlyphs">Asignación</text>
+<rect x="1920.0" y="826.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="2018.0" y="853.0" text-anchor="middle" fill="#0f172a" textLength="101" lengthAdjust="spacingAndGlyphs">Variable: edad</text>
+<rect x="2238.0" y="826.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="2336.0" y="853.0" text-anchor="middle" fill="#0f172a" textLength="79" lengthAdjust="spacingAndGlyphs">Expresión +</text>
+<rect x="2132.0" y="938.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="2230.0" y="965.0" text-anchor="middle" fill="#0f172a" textLength="137" lengthAdjust="spacingAndGlyphs">Identificador: edad</text>
+<rect x="2344.0" y="938.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="2442.0" y="965.0" text-anchor="middle" fill="#0f172a" textLength="65" lengthAdjust="spacingAndGlyphs">Número: 1</text>
+<rect x="2715.0" y="490.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="2813.0" y="517.0" text-anchor="middle" fill="#0f172a" textLength="36" lengthAdjust="spacingAndGlyphs">Si no</text>
+<rect x="2715.0" y="602.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="2813.0" y="629.0" text-anchor="middle" fill="#0f172a" textLength="43" lengthAdjust="spacingAndGlyphs">Bloque</text>
+<rect x="2715.0" y="714.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="2813.0" y="741.0" text-anchor="middle" fill="#0f172a" textLength="72" lengthAdjust="spacingAndGlyphs">Asignación</text>
+<rect x="2556.0" y="826.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="2654.0" y="853.0" text-anchor="middle" fill="#0f172a" textLength="101" lengthAdjust="spacingAndGlyphs">Variable: edad</text>
+<rect x="2874.0" y="826.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="2972.0" y="853.0" text-anchor="middle" fill="#0f172a" textLength="79" lengthAdjust="spacingAndGlyphs">Expresión -</text>
+<rect x="2768.0" y="938.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="2866.0" y="965.0" text-anchor="middle" fill="#0f172a" textLength="137" lengthAdjust="spacingAndGlyphs">Identificador: edad</text>
+<rect x="2980.0" y="938.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="3078.0" y="965.0" text-anchor="middle" fill="#0f172a" textLength="65" lengthAdjust="spacingAndGlyphs">Número: 1</text>
+<rect x="3536.5" y="378.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="3634.5" y="405.0" text-anchor="middle" fill="#0f172a" textLength="79" lengthAdjust="spacingAndGlyphs">Bucle while</text>
+<rect x="3298.0" y="490.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="3396.0" y="517.0" text-anchor="middle" fill="#0f172a" textLength="94" lengthAdjust="spacingAndGlyphs">Comparación &lt;</text>
+<rect x="3192.0" y="602.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="3290.0" y="629.0" text-anchor="middle" fill="#0f172a" textLength="137" lengthAdjust="spacingAndGlyphs">Identificador: edad</text>
+<rect x="3404.0" y="602.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="3502.0" y="629.0" text-anchor="middle" fill="#0f172a" textLength="151" lengthAdjust="spacingAndGlyphs">Identificador: limite</text>
+<rect x="3775.0" y="490.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="3873.0" y="517.0" text-anchor="middle" fill="#0f172a" textLength="43" lengthAdjust="spacingAndGlyphs">Bloque</text>
+<rect x="3775.0" y="602.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="3873.0" y="629.0" text-anchor="middle" fill="#0f172a" textLength="72" lengthAdjust="spacingAndGlyphs">Asignación</text>
+<rect x="3616.0" y="714.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="3714.0" y="741.0" text-anchor="middle" fill="#0f172a" textLength="101" lengthAdjust="spacingAndGlyphs">Variable: edad</text>
+<rect x="3934.0" y="714.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="4032.0" y="741.0" text-anchor="middle" fill="#0f172a" textLength="79" lengthAdjust="spacingAndGlyphs">Expresión +</text>
+<rect x="3828.0" y="826.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="3926.0" y="853.0" text-anchor="middle" fill="#0f172a" textLength="137" lengthAdjust="spacingAndGlyphs">Identificador: edad</text>
+<rect x="4040.0" y="826.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="4138.0" y="853.0" text-anchor="middle" fill="#0f172a" textLength="65" lengthAdjust="spacingAndGlyphs">Número: 1</text>
+<rect x="4252.0" y="378.0" width="196" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+<text x="4350.0" y="405.0" text-anchor="middle" fill="#0f172a" textLength="43" lengthAdjust="spacingAndGlyphs">Return</text>
+<rect x="4252.0" y="490.0" width="196" height="46" rx="10" fill="#dcfce7" stroke="#059669" stroke-width="1.3"/>
+<text x="4350.0" y="517.0" text-anchor="middle" fill="#0f172a" textLength="65" lengthAdjust="spacingAndGlyphs">Número: 0</text>
+</g></svg>
