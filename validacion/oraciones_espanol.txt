@@ -1,0 +1,70 @@
+# Casos de prueba de la extension al espanol.
+# Formato:  '+ oracion' = la gramatica v3 debe aceptarla
+#           '- oracion' = la gramatica v3 debe rechazarla
+# Se corre con:  python -m fase1_extension_espanol.cli --lote validacion/oraciones_espanol.txt
+
+# --- Nivel 1: sujeto-verbo-objeto, concordancia basica ---
++ el gato duerme
++ los gatos duermen
++ la niña duerme
++ las niñas duermen
++ el perro ladra
++ los perros ladraron
++ el gato ve el ratón
++ los gatos ven los ratones
++ la niña compra un libro
++ las niñas compraron unos libros
++ el hombre come un libro
++ la mujer persigue el gato
+
+# --- Nivel 1 (negativos): discordancias que v2 y v3 deben rechazar ---
+- la gato duerme
+- el gata duerme
+- los gato duermen
+- el gatos duerme
+- el gato duermen
+- los gatos duerme
+- la niñas duerme
+- el gato ve los ratón
+
+# --- Nivel 2: modificadores (adjetivo, adverbio, frase preposicional) ---
++ el gato negro duerme
++ los gatos negros duermen
++ la gata negra duerme
++ las gatas negras duermen
++ el gato pequeño negro duerme
++ el gato duerme rápidamente
++ el gato duerme siempre
++ el gato negro duerme lentamente
++ el gato duerme en la casa
++ el gato de la casa duerme
++ la niña compra un libro viejo
++ el niño ve el telescopio en la casa
++ el hombre alto ve la mujer en el jardín
+
+# --- Nivel 2 (negativos): la concordancia falla dentro del modificador ---
+- el gato negra duerme
+- la gata negro duerme
+- los gatos negra duermen
+- el gato pequeña negro duerme
+- el gato duerme en la casas
+
+# --- Nivel 3: subordinada de relativo, concordancia a distancia ---
++ el gato que duerme ve el ratón
++ los gatos que duermen ven los ratones
++ el gato que ve los ratones duerme
++ la niña que compra un libro duerme
++ el perro que ladra persigue el gato negro
++ el gato que duerme en la casa ve el ratón
++ los niños que compraron unos libros viejos duermen
+
+# --- Nivel 3 (negativos): el verbo de la subordinada no concuerda ---
+- el gato que duermen ve el ratón
+- los gatos que duerme ven los ratones
+- la niña que compran un libro duerme
+
+# --- Nivel 3: fenomenos que exceden la gramatica (ver limitaciones L6) ---
+# Estas son gramaticales en espanol pero v3 las rechaza: es el resultado esperado.
+- el niño y la niña son alto y baja respectivamente
+- el niño y la niña duermen
+- el gato duerme y el perro ladra
