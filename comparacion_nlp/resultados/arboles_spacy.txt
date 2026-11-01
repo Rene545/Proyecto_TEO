@@ -1,0 +1,243 @@
+el gato duerme
+  (ROOT:duerme (nsubj:gato (det:el)))
+  el/DET gato/NOUN duerme/VERB
+
+los gatos duermen
+  (ROOT:duermen (nsubj:gatos (det:los)))
+  los/DET gatos/NOUN duermen/VERB
+
+la niña duerme
+  (ROOT:duerme (nsubj:niña (det:la)))
+  la/DET niña/NOUN duerme/VERB
+
+las niñas duermen
+  (ROOT:duermen (nsubj:niñas (det:las)))
+  las/DET niñas/NOUN duermen/VERB
+
+el perro ladra
+  (ROOT:perro (det:el) (flat:ladra))
+  el/DET perro/PROPN ladra/PROPN
+
+los perros ladraron
+  (ROOT:ladraron (nsubj:perros (det:los)))
+  los/DET perros/NOUN ladraron/VERB
+
+el gato ve el ratón
+  (ROOT:ve (nsubj:gato (det:el)) (obj:ratón (det:el)))
+  el/DET gato/NOUN ve/VERB el/DET ratón/NOUN
+
+los gatos ven los ratones
+  (ROOT:ven (nsubj:gatos (det:los)) (obj:ratones (det:los)))
+  los/DET gatos/NOUN ven/VERB los/DET ratones/NOUN
+
+la niña compra un libro
+  (ROOT:compra (nsubj:niña (det:la)) (obj:libro (det:un)))
+  la/DET niña/NOUN compra/VERB un/DET libro/NOUN
+
+las niñas compraron unos libros
+  (ROOT:compraron (nsubj:niñas (det:las)) (obj:libros (det:unos)))
+  las/DET niñas/NOUN compraron/VERB unos/DET libros/NOUN
+
+el hombre come un libro
+  (ROOT:come (nsubj:hombre (det:el)) (obj:libro (det:un)))
+  el/DET hombre/NOUN come/VERB un/DET libro/NOUN
+
+la mujer persigue el gato
+  (ROOT:persigue (nsubj:mujer (det:la)) (obj:gato (det:el)))
+  la/DET mujer/NOUN persigue/VERB el/DET gato/NOUN
+
+la gato duerme
+  (ROOT:duerme (nsubj:gato (det:la)))
+  la/DET gato/NOUN duerme/VERB
+
+el gata duerme
+  (ROOT:duerme (nsubj:gata (det:el)))
+  el/DET gata/NOUN duerme/VERB
+
+los gato duermen
+  (ROOT:duermen (nsubj:gato (det:los)))
+  los/DET gato/NOUN duermen/VERB
+
+el gatos duerme
+  (ROOT:duerme (nsubj:gatos (det:el)))
+  el/DET gatos/NOUN duerme/VERB
+
+el gato duermen
+  (ROOT:duermen (nsubj:gato (det:el)))
+  el/DET gato/NOUN duermen/VERB
+
+los gatos duerme
+  (ROOT:duerme (nsubj:gatos (det:los)))
+  los/DET gatos/NOUN duerme/VERB
+
+la niñas duerme
+  (ROOT:duerme (nsubj:niñas (det:la)))
+  la/DET niñas/NOUN duerme/VERB
+
+el gato ve los ratón
+  (ROOT:ve (nsubj:gato (det:el)) (obj:ratón (det:los)))
+  el/DET gato/NOUN ve/VERB los/DET ratón/NOUN
+
+el gato negro duerme
+  (ROOT:duerme (nsubj:gato (det:el) (amod:negro)))
+  el/DET gato/NOUN negro/ADJ duerme/VERB
+
+los gatos negros duermen
+  (ROOT:duermen (nsubj:gatos (det:los) (amod:negros)))
+  los/DET gatos/NOUN negros/ADJ duermen/VERB
+
+la gata negra duerme
+  (ROOT:duerme (nsubj:gata (det:la) (amod:negra)))
+  la/DET gata/NOUN negra/ADJ duerme/VERB
+
+las gatas negras duermen
+  (ROOT:duermen (nsubj:gatas (det:las) (amod:negras)))
+  las/DET gatas/NOUN negras/ADJ duermen/VERB
+
+el gato pequeño negro duerme
+  (ROOT:duerme (nsubj:gato (det:el) (amod:pequeño) (amod:negro)))
+  el/DET gato/NOUN pequeño/ADJ negro/NOUN duerme/VERB
+
+el gato duerme rápidamente
+  (ROOT:duerme (nsubj:gato (det:el)) (advmod:rápidamente))
+  el/DET gato/NOUN duerme/VERB rápidamente/ADV
+
+el gato duerme siempre
+  (ROOT:duerme (nsubj:gato (det:el)) (advmod:siempre))
+  el/DET gato/NOUN duerme/VERB siempre/ADV
+
+el gato negro duerme lentamente
+  (ROOT:duerme (nsubj:gato (det:el) (amod:negro)) (advmod:lentamente))
+  el/DET gato/NOUN negro/ADJ duerme/VERB lentamente/ADV
+
+el gato duerme en la casa
+  (ROOT:duerme (nsubj:gato (det:el)) (obl:casa (case:en) (det:la)))
+  el/DET gato/NOUN duerme/VERB en/ADP la/DET casa/NOUN
+
+el gato de la casa duerme
+  (ROOT:duerme (nsubj:gato (det:el) (nmod:casa (case:de) (det:la))))
+  el/DET gato/NOUN de/ADP la/DET casa/NOUN duerme/VERB
+
+la niña compra un libro viejo
+  (ROOT:compra (nsubj:niña (det:la)) (obj:libro (det:un) (amod:viejo)))
+  la/DET niña/NOUN compra/VERB un/DET libro/NOUN viejo/ADJ
+
+el niño ve el telescopio en la casa
+  (ROOT:ve (nsubj:niño (det:el)) (obj:telescopio (det:el)) (obl:casa (case:en) (det:la)))
+  el/DET niño/NOUN ve/VERB el/DET telescopio/NOUN en/ADP la/DET casa/NOUN
+
+el hombre alto ve la mujer en el jardín
+  (ROOT:ve (nsubj:hombre (det:el) (amod:alto)) (obj:mujer (det:la)) (obl:jardín (case:en) (det:el)))
+  el/DET hombre/NOUN alto/ADJ ve/VERB la/DET mujer/NOUN en/ADP el/DET jardín/NOUN
+
+el gato negra duerme
+  (ROOT:duerme (nsubj:gato (det:el) (amod:negra)))
+  el/DET gato/NOUN negra/ADJ duerme/VERB
+
+la gata negro duerme
+  (ROOT:duerme (nsubj:gata (det:la) (amod:negro)))
+  la/DET gata/NOUN negro/ADJ duerme/VERB
+
+los gatos negra duermen
+  (ROOT:duermen (nsubj:gatos (det:los) (amod:negra)))
+  los/DET gatos/NOUN negra/ADJ duermen/VERB
+
+el gato pequeña negro duerme
+  (ROOT:duerme (nsubj:gato (det:el) (amod:pequeña) (amod:negro)))
+  el/DET gato/NOUN pequeña/ADJ negro/ADJ duerme/VERB
+
+el gato duerme en la casas
+  (ROOT:duerme (nsubj:gato (det:el)) (obl:casas (case:en) (det:la)))
+  el/DET gato/NOUN duerme/VERB en/ADP la/DET casas/NOUN
+
+el gato que duerme ve el ratón
+  (ROOT:gato (det:el) (acl:duerme (obj:que) (xcomp:ve) (obj:ratón (det:el))))
+  el/DET gato/NOUN que/PRON duerme/VERB ve/VERB el/DET ratón/NOUN
+
+los gatos que duermen ven los ratones
+  (ROOT:ven (nsubj:gatos (det:los) (acl:duermen (nsubj:que))) (obj:ratones (det:los)))
+  los/DET gatos/NOUN que/PRON duermen/VERB ven/VERB los/DET ratones/NOUN
+
+el gato que ve los ratones duerme
+  (ROOT:duerme (nsubj:gato (det:el) (acl:ve (nsubj:que) (obj:ratones (det:los)))))
+  el/DET gato/NOUN que/PRON ve/VERB los/DET ratones/NOUN duerme/VERB
+
+la niña que compra un libro duerme
+  (ROOT:duerme (nsubj:niña (det:la) (acl:compra (nsubj:que) (obj:libro (det:un)))))
+  la/DET niña/NOUN que/PRON compra/VERB un/DET libro/NOUN duerme/VERB
+
+el perro que ladra persigue el gato negro
+  (ROOT:perro (det:el) (acl:persigue (mark:que) (nsubj:ladra) (obj:gato (det:el) (amod:negro))))
+  el/DET perro/NOUN que/PRON ladra/NOUN persigue/VERB el/DET gato/NOUN negro/ADJ
+
+el gato que duerme en la casa ve el ratón
+  (ROOT:ve (nsubj:gato (det:el) (acl:duerme (nsubj:que) (obl:casa (case:en) (det:la)))) (obj:ratón (det:el)))
+  el/DET gato/NOUN que/PRON duerme/VERB en/ADP la/DET casa/NOUN ve/VERB el/DET ratón/NOUN
+
+los niños que compraron unos libros viejos duermen
+  (ROOT:duermen (nsubj:niños (det:los) (acl:compraron (nsubj:que) (obj:libros (det:unos) (amod:viejos)))))
+  los/DET niños/NOUN que/PRON compraron/VERB unos/DET libros/NOUN viejos/ADJ duermen/VERB
+
+el gato que duermen ve el ratón
+  (ROOT:ve (nsubj:gato (det:el) (acl:duermen (obj:que))) (obj:ratón (det:el)))
+  el/DET gato/NOUN que/PRON duermen/VERB ve/VERB el/DET ratón/NOUN
+
+los gatos que duerme ven los ratones
+  (ROOT:ven (nsubj:gatos (det:los) (acl:duerme (nsubj:que))) (obj:ratones (det:los)))
+  los/DET gatos/NOUN que/PRON duerme/VERB ven/VERB los/DET ratones/NOUN
+
+la niña que compran un libro duerme
+  (ROOT:duerme (nsubj:niña (det:la) (acl:compran (nsubj:que) (obj:libro (det:un)))))
+  la/DET niña/NOUN que/PRON compran/VERB un/DET libro/NOUN duerme/VERB
+
+el niño y la niña son alto y baja respectivamente
+  (ROOT:alto (nsubj:niño (det:el) (conj:niña (cc:y) (det:la))) (cop:son) (conj:baja (cc:y) (advmod:respectivamente)))
+  el/DET niño/NOUN y/CCONJ la/DET niña/NOUN son/AUX alto/ADJ y/CCONJ baja/ADJ respectivamente/ADV
+
+el niño y la niña duermen
+  (ROOT:duermen (nsubj:niño (det:el) (conj:niña (cc:y) (det:la))))
+  el/DET niño/NOUN y/CCONJ la/DET niña/NOUN duermen/VERB
+
+el gato duerme y el perro ladra
+  (ROOT:duerme (nsubj:gato (det:el)) (conj:perro (cc:y) (det:el) (flat:ladra)))
+  el/DET gato/NOUN duerme/VERB y/CCONJ el/DET perro/PROPN ladra/PROPN
+
+El gato come pescado.
+  (ROOT:come (nsubj:gato (det:El)) (obj:pescado) (punct:.))
+  El/DET gato/NOUN come/VERB pescado/ADJ ./PUNCT
+
+Los niños juegan en el parque.
+  (ROOT:juegan (nsubj:niños (det:Los)) (obl:parque (case:en) (det:el)) (punct:.))
+  Los/DET niños/NOUN juegan/VERB en/ADP el/DET parque/NOUN ./PUNCT
+
+Yo quiero que tú vengas.
+  (ROOT:quiero (nsubj:Yo) (ccomp:vengas (mark:que) (nsubj:tú)) (punct:.))
+  Yo/PRON quiero/VERB que/SCONJ tú/PRON vengas/ADJ ./PUNCT
+
+María ve a su madre.
+  (ROOT:ve (nsubj:María) (obj:madre (case:a) (det:su)) (punct:.))
+  María/PROPN ve/VERB a/ADP su/DET madre/NOUN ./PUNCT
+
+No me gusta el café.
+  (ROOT:gusta (advmod:No) (iobj:me) (nsubj:café (det:el)) (punct:.))
+  No/ADV me/PRON gusta/VERB el/DET café/NOUN ./PUNCT
+
+Ayer el perro persiguió al gato.
+  (ROOT:persiguió (advmod:Ayer) (nsubj:perro (det:el)) (obj:gato (case:al)) (punct:.))
+  Ayer/ADV el/DET perro/NOUN persiguió/VERB al/ADP gato/NOUN ./PUNCT
+
+La niña dijo que el gato duerme.
+  (ROOT:dijo (nsubj:niña (det:La)) (ccomp:duerme (mark:que) (nsubj:gato (det:el))) (punct:.))
+  La/DET niña/NOUN dijo/VERB que/SCONJ el/DET gato/NOUN duerme/VERB ./PUNCT
+
+El libro que compró la niña es viejo.
+  (ROOT:viejo (nsubj:libro (det:El) (acl:compró (obj:que) (nsubj:niña (det:la)))) (cop:es) (punct:.))
+  El/DET libro/NOUN que/PRON compró/VERB la/DET niña/NOUN es/AUX viejo/ADJ ./PUNCT
+
+La casa de los niños es pequeña.
+  (ROOT:pequeña (nsubj:casa (det:La) (nmod:niños (case:de) (det:los))) (cop:es) (punct:.))
+  La/DET casa/NOUN de/ADP los/DET niños/NOUN es/AUX pequeña/ADJ ./PUNCT
+
+Duerme el gato.
+  (ROOT:Duerme (obj:gato (det:el)) (punct:.))
+  Duerme/VERB el/DET gato/NOUN ./PUNCT
