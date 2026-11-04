@@ -23,6 +23,11 @@ tenga algo instalado.
 Todos los comandos se ejecutan **desde la raíz del repositorio**, porque los
 módulos se importan por paquete (`python -m paquete.modulo`).
 
+La única excepción son las comparaciones con NLP de las partes 3 y 4, que usan
+NLTK y spaCy (`pip install nltk spacy` y `python -m spacy download
+es_core_news_sm`). Sin ellas, todo lo demás funciona y sus resultados ya
+generados están en `comparacion_nlp/resultados/` y `analisis_formal/resultados/`.
+
 ## Estructura
 
 ```
@@ -38,7 +43,15 @@ fase1_extension_espanol/        Extensión de la CFG al español
   muro_cfg.py                   El límite que ya no es libre de contexto
   limitaciones.py               Catálogo formal de los puntos de falla
   cli.py                        Demo ejecutable
-tests/                          Pruebas (54 en total)
+comparacion_nlp/                Pruebas y comparación con NLTK y spaCy (ver su README)
+analisis_formal/                Análisis formal y verificación independiente (ver su README)
+  marco_teorico.md              Jerarquía de Chomsky y lenguaje formal vs. natural
+  analisis_resultados.md        L1–L6 en la jerarquía, demostración de L6, métricas
+  verificar_teoria.py           Recalcula los números teóricos por otro camino
+  inspeccionar_spacy.py         Clasifica los falsos positivos de spaCy
+informe/informe_tecnico.md      Informe técnico de la Fase 1
+presentacion/                   Guion de la presentación, demo y banco de preguntas
+tests/                          Pruebas (89 en total)
 validacion/                     Programas en C y oraciones en español de prueba
 salidas_ejemplo/                Árboles SVG ya generados
 ```
@@ -194,7 +207,8 @@ me salió esta serie:
 Son los **números de Catalan**. No se buscaron: es la consecuencia de que cada
 frase preposicional nueva puede colgar del nombre o del verbo, y el número de
 árboles binarios posibles sobre *n* puntos de adjunción es justamente
-C(n). O sea que la ambigüedad crece exponencialmente y la CFG no tiene ningún
+C(n); contando frases preposicionales, *k* frases dan C(k + 1) análisis. La
+serie sigue 42, 132, 429 (ver `analisis_formal/`). O sea que la ambigüedad crece exponencialmente y la CFG no tiene ningún
 mecanismo para preferir un árbol sobre otro: desambiguar "el niño ve el
 telescopio en la casa" exige semántica y conocimiento del mundo, que están
 fuera de la sintaxis. Como dato adicional, decidir si una CFG arbitraria es
@@ -221,8 +235,11 @@ Con *n* sujetos y *n* adjetivos, el adjetivo *i* debe concordar con el sujeto
 *i*. La dependencia es **cruzada**, no anidada. Abstrayendo cada grupo nominal
 a su par de rasgos, el conjunto de cadenas gramaticales es isomorfo a
 *{ w c w }*, que es el ejemplo de libro de lenguaje **no** libre de contexto:
-se demuestra con el lema de bombeo, porque el segmento bombeado nunca puede
-tocar las dos copias de *w* a la vez y al bombear se altera una y no la otra.
+se demuestra con el lema de bombeo: el segmento bombeado mide a lo sumo *p*,
+así que o borra la *c*, o altera una sola copia, o (si cruza la *c*) solo toca
+el final de la primera copia y el inicio de la segunda y las desbalancea. La
+demostración completa, con intersección con un regular y homomorfismo, está en
+`analisis_formal/analisis_resultados.md`.
 
 se verificó empíricamente. Parcheé v3 enumerando las secuencias de rasgos para
 coordinaciones de longitud fija, y el comportamiento es el predicho: con el
@@ -247,14 +264,47 @@ gigantesca alcanzaría. La distinción es la clásica entre competencia y
 actuación. La limitación es de competencia, y es la que importa al clasificar
 el lenguaje dentro de la jerarquía.
 
+## Parte 3 — Pruebas y comparación con NLP
+
+La carpeta `comparacion_nlp/` agrega un corpus de 33 programas de C (válidos,
+inválidos y fuera del subconjunto), un gold de 61 oraciones en español con dos
+etiquetas (`esperado_v3` y `gramatical_real`) y la comparación del parser propio
+con NLTK (verificación cruzada, misma gramática v3) y con spaCy. El detalle y
+los comandos están en `comparacion_nlp/README.md`.
+
+```bash
+python -m comparacion_nlp.ejecutar_pruebas_c
+python -m comparacion_nlp.comparar               # o --sin-spacy --sin-nltk
+```
+
+## Parte 4 — Análisis formal
+
+La carpeta `analisis_formal/` ubica cada punto de falla en la jerarquía de
+Chomsky y verifica los números del proyecto por un camino independiente.
+
+```bash
+python -m analisis_formal.verificar_teoria       # sin dependencias
+python -m analisis_formal.inspeccionar_spacy     # necesita spaCy
+```
+
+Lo principal: la serie de L3 se reproduce con una gramática abstracta distinta
+(y continúa 42, 132, 429); la tabla de L6 sale de la fórmula cerrada
+(4ⁿ⁺¹ − 16)/3; la demostración de L6 se completa con intersección con un
+regular, homomorfismo a { w c w } y lema de bombeo por casos; y de los 7 falsos
+positivos de spaCy, 2 son rasgos que spaCy "corrige" en silencio (etiqueta
+"negra" como masculino en "el gato negra duerme"). El informe técnico está en
+`informe/informe_tecnico.md` y el guion de la presentación en
+`presentacion/guion_presentacion.md`.
+
 ## Pruebas
 
 ```bash
-python -m unittest tests.test_fase1 tests.test_extension_espanol -v
+python -m unittest tests.test_fase1 tests.test_extension_espanol tests.test_corpus_c tests.test_comparacion_nlp tests.test_analisis_formal -v
 ```
 
-54 pruebas: 14 del parser de C y 40 de la extensión al español. Varias de las
-40 afirman explícitamente que una oración **gramatical** en español es
+89 pruebas: 14 del parser de C, 40 de la extensión al español, 23 del corpus de
+C y la comparación con NLP, y 12 del análisis formal. Ninguna necesita NLTK ni
+spaCy. Varias de las 40 afirman explícitamente que una oración **gramatical** en español es
 rechazada, con el código de la limitación que lo explica en el docstring; otras
 fijan los números que reporto arriba (las 5/22/49 producciones, la serie
 1-2-5-14) para que no se me muevan sin darme cuenta.
