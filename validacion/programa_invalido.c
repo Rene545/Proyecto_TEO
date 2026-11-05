@@ -1,4 +1,4 @@
 int main() {
-    int edad = 18;
+    int edad = 18
     return 0;
 }
