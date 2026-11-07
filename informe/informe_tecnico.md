@@ -8,7 +8,9 @@ Teoría de Lenguajes de Programación — Universidad Centroamericana José Sime
 - Rene Roberto Castañeda Manca - 00360422
 - Luis Andree Hernandez Maltez - 00012321
 - Carlos Mauricio Canjura Paz - 00021622
+
 **Repositorio:** https://github.com/Rene545/Proyecto_TEO
+
 **Fecha:** noviembre de 2026
 
 ---
