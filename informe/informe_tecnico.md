@@ -3,7 +3,11 @@
 **Proyecto TLP02-2026 — Fase 1**
 Teoría de Lenguajes de Programación — Universidad Centroamericana José Simeón Cañas
 
-**Integrantes:** _(completar)_
+**Integrantes:** 
+- Diego Rafael Flores Serrato - 00029823
+- Rene Roberto Castañeda Manca - 00360422
+- Luis Andree Hernandez Maltez - 00012321
+- Carlos Mauricio Canjura Paz - 00021622
 **Repositorio:** https://github.com/Rene545/Proyecto_TEO
 **Fecha:** noviembre de 2026
 
