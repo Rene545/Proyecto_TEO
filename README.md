@@ -313,27 +313,3 @@ Las pruebas se corren con `python -m unittest tests.test_...` y no con
 descubrimiento automático (`discover`), porque no puse `__init__.py` en
 `tests/` y el descubrimiento necesita que el directorio sea importable.
 
-## Alcance que dejé fuera a propósito
-
-Para que el experimento sea legible acoté el subconjunto del español. Estas son
-restricciones conscientes, no cosas que se me olvidaron:
-
-- **Solo tercera persona.** El léxico no tiene 1ª ni 2ª persona. El rasgo
-  `persona` está implementado y es parametrizable, pero lo uso únicamente para
-  medir el crecimiento de la gramática, no para analizar.
-- **Sin contracciones.** Se escribe "de el jardín" y no "del", para no mezclar
-  fenómenos morfofonológicos con los sintácticos que se estan midiendo.
-- **Sin la preposición "a" de objeto directo.** "ve el ratón", no "ve al
-  ratón", por la misma razón.
-- **El orden de los modificadores es más laxo que el del español real.** La
-  regla `MODN -> ADJ MODN` permite "el gato en la casa negro", que suena mal.
-  Restringirlo exigía más particiones de no terminales y habría inflado la
-  gramática sin aportar al argumento.
-- **Sin coordinación general.** "el gato duerme y el perro ladra" se rechaza.
-  La única coordinación que se implementó es la distributiva de L6, porque esa es
-  la que demuestra el límite formal.
-
-El léxico tolera entradas sin tildes (escribir "nino" o "jardin" funciona),
-pero las formas canónicas están acentuadas correctamente, porque el mismo
-conjunto de oraciones se va a pasar por spaCy más adelante y no se quiere que la
-comparación se contamine con problemas de ortografía.
